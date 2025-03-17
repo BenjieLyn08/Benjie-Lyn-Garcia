@@ -30,11 +30,11 @@ class CustomTextField extends StatelessWidget {
   final Color color;
 
   const CustomTextField({
-    Key? key,
+    super.key,
     required this.controller,
     required this.hintText,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
